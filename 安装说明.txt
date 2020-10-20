@@ -1,0 +1,23 @@
+已经安装mysql数据库:
+拷贝temperature.sql到D盘中。
+在***\mysql-5.7.27-winx64\bin中cmd
+MySQLdump -u root -p zhongji> d://ceshi.sql
+
+1、mysql -u root -p
+     123456
+
+2、create database temperature;
+
+3、use temperature;
+
+4、source d:\\temperature.sql;
+
+
+
+
+未安装mysql数据库:
+1、解压mysql-5.7.27-winx64到c盘根目录
+2、管理员权限打开cmd
+3、命令行进入cd c:\mysql-5.7.27-winx64\bin
+4、执行mysqld install 
+5、执行net start mysql
